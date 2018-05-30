@@ -4,7 +4,7 @@
 
 ## PURPOSE:
 
-> To beautify the shit out of [waffletime.com](waffletime.com)
+> - To beautify the shit out of [waffletime.com](waffletime.com) :ok_hand:
 
 ________________________________________________
 
