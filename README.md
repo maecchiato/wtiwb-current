@@ -1,8 +1,10 @@
 
 
-# A WAFFLE TIME WEBSITE PROJECT
+#  A WAFFLE TIME WEBSITE PROJECT
 
-> [waffletime.com](waffletime.com)
+## PURPOSE:
+
+> To beautify the shit out of [waffletime.com](waffletime.com)
 
 ________________________________________________
 
