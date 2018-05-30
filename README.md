@@ -1,6 +1,6 @@
 
 
-# A WAFFLE TIME PROJECT
+# A WAFFLE TIME WEBSITE PROJECT
 
 > [waffletime.com](waffletime.com)
 
