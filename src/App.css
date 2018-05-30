@@ -1,0 +1,391 @@
+@font-face{
+	font-family:'KIMBERLE';
+	src:url('./Components/Layouts/fonts/KIMBERLE.TTF') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+/*
+
+	the wafflebottom img is too big. it blocks the navigation
+	i added z-index: 3 so the navs can be clicked
+
+*/
+
+
+nav
+{
+	z-index: 3;
+}
+
+/*  Boootstrap Overrides */
+
+
+.navbar-nav
+{
+  font-family: 'KIMBERLE', sans-serif !important;
+}
+
+.nav-link
+{
+  color: red !important;
+}
+
+.btn-primary
+{
+	background-color: #fa0002 !important;
+	border-color: #fa0002 !important;
+}
+
+.nav-link:hover
+{
+	color:#fff !important;
+	background-color:#fa0002;
+	-webkit-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	-moz-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	border-radius: 15px;
+}
+
+
+.slick-prev:before, .slick-next:before
+{
+	  color: #fa0002 !important;
+}
+
+/* Personalized CSS */
+
+#navbar-header
+{
+  border-top: #fa0002 solid 5px;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+	#logo
+	{
+	  width: 250px !important;
+	  top: 10% !important;
+	}
+
+	#home-section
+	{
+		padding-bottom: 45px !important;
+	}
+
+	#about-section
+	{
+		background-color: #fff;
+		color: black;
+		padding-top: 175px !important;
+		padding-bottom: 100px;
+	}
+
+	#waffles-waffle
+	{
+		margin-top: 150px !important;
+	}
+}
+
+#logo
+{
+  width: 200px;
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  transition: .3s;
+}
+
+/* HOME SECTION */
+
+#home-section
+{
+  background-color: #32a5fd;
+	color: white;
+  padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+#welcome-waffletime
+{
+	margin-top: 14% !important;
+}
+
+
+#cloud
+{
+	position: absolute;
+	display: block;
+	height: auto;
+}
+
+#cloud1
+{
+	width: 20%;
+	opacity: 0.9;
+}
+
+#cloud2
+{
+	width: 25%;
+	opacity: 0.3;
+}
+
+#cloud3
+{
+	width: 30%;
+	opacity: 0.6;
+}
+
+#waffle
+{
+	position: absolute;
+	width: 110%;
+	z-index: 1;
+}
+
+#wafflebottom
+{
+  width:100%;
+	height:auto;
+	position:absolute;
+	display:block;
+	bottom:0;
+}
+
+#franchiseebtn
+{
+	  font-family: 'KIMBERLE', sans-serif !important;
+		font-size: 175%;
+		margin-left: 22%;
+		border-radius: 15px;
+		z-index: 2;
+		position: absolute;
+}
+
+#franchiseebtn:hover
+{
+	color:#fa0002 !important;
+	background-color:#fff !important;
+	border-color: #fff !important;
+	-webkit-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	-moz-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	border-radius: 15px;
+
+}
+
+
+
+/* ABOUT SECTION */
+
+#about-section
+{
+	background-color: #fff;
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.about-info
+{
+	font-family: 'KIMBERLE', sans-serif !important;
+  color: red !important;
+}
+
+.about-info :hover
+{
+	text-decoration: none;
+	color:#fff;
+	background-color:#fa0002;
+	-webkit-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	-moz-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
+	border-radius: 15px;
+}
+
+
+
+/* WAFFLES SECTION */
+
+#waffles-section
+{
+	background-color: #fee300;
+	color: white;
+	padding-top: 75px;
+}
+
+#waffles-waffle
+{
+	 margin-top: 25px;
+}
+
+
+#waffle-definition-title-1
+{
+	color: #fa0002;
+	font-weight: 800;
+}
+
+#waffle-definition-1
+{
+	background-color: #fa0002 !important;
+	color: white !important;
+}
+
+#waffle-definition-2
+{
+	background-color: #32a5fd !important;
+}
+
+
+#waffle-definition-title-2
+{
+	color: #32a5fd;
+	font-weight: 800;
+}
+
+
+#waffle-definition-3
+{
+	background-color: #fff !important;
+	color: #fa0002 !important;
+}
+
+#waffle-definition-title-3
+{
+	color: #fff;
+	font-weight: 800;
+	text-shadow: 0.5px 0.5px #fa0002;
+}
+
+.add-box
+{
+	border-radius: 10px;
+	padding: 10px;
+
+}
+.force-center
+{
+	margin-top: 50% !important;
+}
+
+.waffle-definition-title
+{
+	font-weight: 700 !important;
+}
+
+.waffle-definition-box
+{
+	background-color: red;
+}
+
+#waffle-curve
+{
+	width: 100%;
+	padding-top: 100px;
+}
+
+/* EVENTS SECTION  */
+
+#events-section
+{
+	font-family: 'KIMBERLE', sans-serif !important;
+	background-color: #fff;
+	color: #fa0002;
+	padding-top: 80px;
+	padding-bottom: 125px;
+}
+
+#event-curve
+{
+	width: 100%;
+}
+
+.img-vert {
+      -moz-transform: scaleY(-1);
+      -o-transform: scaleY(-1);
+      -webkit-transform: scaleY(-1);
+      transform: scaleY(-1);
+      filter: FlipV;
+      -ms-filter: "FlipV";
+}
+
+#event-slider
+{
+  margin-top: 20px;
+	color: #030051;
+}
+
+#event-info-section
+{
+	background-color: #fa0002;
+	padding-bottom: 500px;
+}
+
+#map-section
+{
+	background-color: white;
+}
+
+.wavy-curve
+{
+		width: 100%;
+}
+
+#expand-map
+{
+	padding-top: 200px;
+}
+
+#footer-text
+{
+	position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+#footer-main
+{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+#footer
+{
+	/* padding-top: 50px; */
+}
+
+#franchise-section
+{
+	font-family: 'IM Fell French Canon SC', serif;
+	background-color: #030051;
+	color: white;
+	padding-top: 120px;
+}
+
+#waffle-line
+{
+	background-color: red;
+	width: 75%;
+	height: 2px;color:
+}
+
+.no-padding
+{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+#franchise-description
+{
+	font-size: 1rem !important;
+}
+
+#contact-section
+{
+	font-family: 'Exo 2', sans-serif !important;
+	font-size: .75em;
+}
