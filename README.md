@@ -1,3 +1,13 @@
+
+
+#  A WAFFLE TIME WEBSITE PROJECT
+
+## PURPOSE:
+
+> - To beautify the shit out of [waffletime.com](waffletime.com) :ok_hand:
+
+________________________________________________
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
