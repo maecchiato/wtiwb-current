@@ -40,9 +40,18 @@ class Events extends React.Component{
         <div id = "event-slider" className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
            <div>
-             < img className = "img-fluid img-thumbnail" src = "http://baijs.com/tinycarousel/examples/responsive/images/picture5.jpg" />
-             <p className = "mt-3 h4">Hello World</p>
-             <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper eu dui a faucibus.</small>
+             <img className = "img-fluid img-thumbnail" src = "http://baijs.com/tinycarousel/examples/responsive/images/picture5.jpg" />
+             <p className = "mt-3 h3 font-weight-bold">
+                      Hello World
+              </p>
+             <p className = "mt-3 event-description text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris semper eu dui a faucibus consectetur adipiscing dolor
+                sit amet, consectetur adipiscing.
+             </p>
+             <small className = "mt-2 text-muted float-right">
+              Monday, 4 June 2018
+             </small>
            </div>
            <div>
              <h3>2</h3>

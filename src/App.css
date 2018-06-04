@@ -318,6 +318,12 @@ nav
 	color: #030051;
 }
 
+.event-description
+{
+	 font-size: 0.78em !important;
+	 opacity: 0.95;
+}
+
 #event-info-section
 {
 	background-color: #fa0002;
