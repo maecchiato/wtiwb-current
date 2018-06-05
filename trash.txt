@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import { GoogleApiWrapper } from 'google-maps-react';
+
 import Navigation from './Components/Navigation';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -21,7 +23,7 @@ class App extends Component {
           <Waffles />
           <Events />
           <EventsInfo />
-          <Maps/>
+          <Maps google = {this.props.google}/>
           <Franchise />
         </div>
       </div>
@@ -29,4 +31,6 @@ class App extends Component {
   }
 }
 
-export default App;
+export default GoogleApiWrapper({
+  apiKey: 'AIzaSyAJbpjI8KS7fzlHYDjIBeOL8TkPfEhXUSk'
+})(App);
