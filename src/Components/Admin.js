@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Navigation from './Navigation';
 import Login from './Login';
 
+import Administrator from './Administrator';
 
 const Admin = () => (
     <div className = "container-fluid" id = "admin">
@@ -25,11 +26,10 @@ const Admin = () => (
               </button>
             </div>
           </div>
-          <div className = "col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12">
+          <div className = "col-xl-2 col-lg-2 col-md-2 col-sm-12 col-xs-12">
           </div>
-          <div className = "col-xl-$ col-lg-4 col-md-4 col-sm-12 col-xs-12">
-          </div>
-          <div className = "col-xl-1 col-lg-1 col-md-1 col-sm-12 col-xs-12">
+          <div className = "col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <Administrator />
           </div>
       </div>
     </div>

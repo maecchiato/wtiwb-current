@@ -408,8 +408,18 @@ body, html{
 	font-size: 1rem !important;
 }
 
+#administrator-manage:hover
+{
+	background-color: black !important;
+}
+
 #contact-section
 {
 	font-family: 'Exo 2', sans-serif !important;
 	font-size: .75em;
+}
+
+#administrator-selection
+{
+
 }
