@@ -11,11 +11,9 @@ class Map extends React.Component{
         <h1 className = "text-center display-3 mt-5">
             Hello World
         </h1>
-
       </div>
       </div>
     )
   }
 }
-
 export default Map;

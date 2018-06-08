@@ -3,12 +3,10 @@ import '../App.css';
 
 import { Link } from 'react-router-dom';
 
-import Navigation from './Navigation';
-import Login from './Login';
 
 import Administrator from './Administrator';
 
-const Admin = () => (
+const accounts = () => (
     <div className = "container-fluid" id = "admin">
       <div id = "admin-section" className = "row">
           <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -36,4 +34,4 @@ const Admin = () => (
     </div>
 );
 
-export default Admin;
+export default accounts;

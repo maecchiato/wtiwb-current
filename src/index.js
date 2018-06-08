@@ -11,6 +11,9 @@ import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 
 
 import Admin from './Components/Admin';
+import manageaccounts from './Components/Manage-Accounts';
+import manageadvertisements from './Components/Manage-Advertisements';
+import managestores from './Components/Manage-Stores';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
@@ -20,7 +23,10 @@ ReactDOM.render(
       <Switch>
         <Route exact path ="/" component = {App} />
         <Route exact path = "/admin" component = {Admin} />
-      </Switch>
+        <Route exact path = "/admin/accounts" componenet = {manageaccounts} />
+        <Route exact path = "/admin/manage-advertisements" componenet = {manageadvertisements} />
+        <Route exact path = "/admin/manage-stores" componenet = {managestores} />
+        </Switch>
   </BrowserRouter>
   , document.getElementById('root')
 );
