@@ -23,10 +23,10 @@ ReactDOM.render(
       <Switch>
         <Route exact path ="/" component = {App} />
         <Route exact path = "/admin" component = {Admin} />
-        <Route exact path = "/admin/accounts" componenet = {manageaccounts} />
-        <Route exact path = "/admin/manage-advertisements" componenet = {manageadvertisements} />
-        <Route exact path = "/admin/manage-stores" componenet = {managestores} />
-        </Switch>
+        <Route exact path = "/admin/manage-accounts" component = {manageaccounts} />
+        <Route exact path = "/admin/manage-advertisements" component = {manageadvertisements} />
+        <Route exact path = "/admin/manage-stores" component = {managestores} />
+      </Switch>
   </BrowserRouter>
   , document.getElementById('root')
 );

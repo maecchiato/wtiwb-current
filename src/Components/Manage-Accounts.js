@@ -11,7 +11,7 @@ const accounts = () => (
       <div id = "admin-section" className = "row">
           <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <h2 className = "display-4 ml-md-5">
-              Waffle Time Content Management System
+              Waffle Time Content Management System ad amjdhaq iu
             </h2>
             <div className = "mt-5 ml-md-5">
               <Link to="/">
