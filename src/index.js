@@ -7,13 +7,11 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/slick-carousel/slick/slick.css';
 import '../node_modules/slick-carousel/slick/slick-theme.css';
 import { render } from "react-dom";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 
 import Admin from './Components/Admin';
-import manageaccounts from './Components/Manage-Accounts';
-import manageadvertisements from './Components/Manage-Advertisements';
-import managestores from './Components/Manage-Stores';
+import manage from './Components/Manage';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
@@ -23,9 +21,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path ="/" component = {App} />
         <Route exact path = "/admin" component = {Admin} />
-        <Route exact path = "/admin/manage-accounts" component = {manageaccounts} />
-        <Route exact path = "/admin/manage-advertisements" component = {manageadvertisements} />
-        <Route exact path = "/admin/manage-stores" component = {managestores} />
+        <Route exact path = "/admin/manage" component = {manage} />
       </Switch>
   </BrowserRouter>
   , document.getElementById('root')

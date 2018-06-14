@@ -37,12 +37,6 @@ body, html{
   color: red !important;
 }
 
-.btn-primary
-{
-	background-color: #fa0002 !important;
-	border-color: #fa0002 !important;
-}
-
 .nav-link:hover
 {
 	color:#fff !important;
@@ -52,6 +46,14 @@ body, html{
 	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
 	border-radius: 15px;
 }
+
+
+.btn-primary
+{
+	background-color: #fa0002 !important;
+	border-color: #fa0002 !important;
+}
+
 
 
 .slick-prev:before, .slick-next:before
@@ -441,4 +443,40 @@ body, html{
 .manage-btn:hover
 {
 	background-color: black;
+}
+
+#manage-nav
+{
+
+}
+
+.manage-nav
+{
+	color: #007bff !important;
+}
+
+.nav-link:hover
+{
+	color: #fff !important;
+	background-color:#007bff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+	color: #fff !important;
+}
+
+#manage-buttons a
+{
+	color: #343a40;
+}
+
+.manage-return
+{
+	color: #343a40;
+}
+
+#manage-title
+{
+	font-size: 1.5em !important;
 }
