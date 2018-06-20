@@ -4,6 +4,15 @@ import ReactDOM from 'react-dom'
 import wavycurve from './Layouts/img/wavy-curve-red.png';
 import wavycurveblue from './Layouts/img/wavy-curve-blue.png';
 
+// import for maps
+// import {
+//   withScriptjs,
+//   withGoogleMap,
+//   GoogleMap,
+//   Marker,
+//   google
+// } from "react-google-maps";
+
 class Map extends React.Component{
 
   componentDidUpdate(){
@@ -35,7 +44,7 @@ class Map extends React.Component{
       width: '80vw',
       height: '75vh'
     }
-    
+
     return(
       <div id = "map-section" className = "row">
       <img src = {wavycurve} className = "img-fluid wavycurve" alt = "Waffle blue curve"/>

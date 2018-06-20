@@ -55,7 +55,6 @@ body, html{
 }
 
 
-
 .slick-prev:before, .slick-next:before
 {
 	  color: #fa0002 !important;
@@ -314,7 +313,7 @@ body, html{
 	font-family: 'KIMBERLE', sans-serif !important;
 	background-color: #fff;
 	color: #fa0002;
-	padding-top: 80px;
+	padding-top: 95px;
 	padding-bottom: 125px;
 }
 
@@ -347,7 +346,7 @@ body, html{
 #event-info-section
 {
 	background-color: #fa0002;
-	padding-bottom: 500px;
+	padding-bottom: 80px; 
 }
 
 #map-section

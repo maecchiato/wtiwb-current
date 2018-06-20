@@ -27,14 +27,19 @@ class Login extends React.Component{
           super();
 
           this.state = {
-            modalIsOpen: false,
+            apiBaseUrl: 'http://127.0.0.1/waffletimeapi',
             username: '',
             password: '',
+            modalIsOpen: false,
+            hasLogin: false,
+            session: false,
+            msg: ''
           };
 
           this.openModal = this.openModal.bind(this);
           this.afterOpenModal = this.afterOpenModal.bind(this);
           this.closeModal = this.closeModal.bind(this);
+          this.handleLogin = this.handleLogin.bind(this);
         }
 
         openModal(){
@@ -49,9 +54,64 @@ class Login extends React.Component{
           this.setState({modalIsOpen: false});
         }
 
+        handleSetStorage(){
+          localStorage.setItem('username',this.state.username);
+          localStorage.setItem ('password',this.state.password);
+        }
+
+        componentDidMount(){
+          this.handleCheckSession();
+        }
+
+        handleChangeUsername = (event) =>{
+          this.setState({
+            username: event.target.value,
+          });
+        }
+
+        handelChangePassword = (event) =>
+        {
+          this.setState({
+            password: event.target.value,
+          });
+        }
+
+        handleCheckSession(){
+          var apiBaseUrl = this.state.apiBaseUrl;
+          var username = localStorage.getItem('username');
+          var password = localStorage.getItem('password');
+
+          if(username != "" && password != ""){
+            axios.get(apiBaseUrl + '/php/checkSessionLogin.php?user='+username+'&password='+password)
+            .then(respond => {
+
+            })
+          }
+          else {
+              this.setState({session: false});
+            }
+        }
+
+
+        handleLogin(event){
+          alert(this.state.username)
+          // var apiBaseUrl = "http://127.0.0.1/waffletimeapi";
+          // axios.get(apiBaseUrl + '/php/checkUserLogin.php?='+JSON.stringify(this.state))
+          // .then(respond => {
+          //   alert(respond);
+            // var cred = JSON.parse(JSON.stringify(res.data));
+            // if(cred.length != 0)
+            // {
+            //   if(cred[0].usertype == ''){
+            //
+            //   }
+            //
+            // }
+          // })
+        }
         handleClick(event)
         {
-          var apiBaseUrl= "http://127.0.0.1/waffletimeapi/";
+          var apiBaseUrl= this.state.apiBaseUrl;
           var self = this;
 
           var payload={
@@ -86,7 +146,7 @@ class Login extends React.Component{
           });
         }
 
-      
+
 
     render(){
       return(
@@ -109,7 +169,7 @@ class Login extends React.Component{
             <div className="input-group-prepend">
               <span className="input-group-text" id="inputGroup-sizing-default">Username</span>
             </div>
-            <input type="text" onChange = {(event, newValue) => this.setState({username:newValue})} className="form-control" aria-label="Username" aria-describedby="inputGroup-sizing-default" />
+            <input type="text" className="form-control" aria-label="Username" aria-describedby="inputGroup-sizing-default" />
           </div>
 
           <div className="input-group mb-3">
@@ -121,7 +181,7 @@ class Login extends React.Component{
 
         </div>
         <div className="modal-footer">
-          <input type="submit" onClick = {(event) => this.handleClick(event)} className="btn btn-success" value = "Sign-in"/>
+          <input type="submit" onClick = {(event) => this.handleLogin(event)} className="btn btn-success" value = "Sign-in"/>
           <button type="button" onClick = {this.closeModal} className="btn btn-secondary">Close</button>
         </div>
       </form>
