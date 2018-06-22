@@ -13,6 +13,11 @@
 
 */
 
+.add-padding
+{
+	padding-top: 500px;
+}
+
 
 nav
 {
@@ -77,21 +82,61 @@ body, html{
 
 	#home-section
 	{
-		padding-bottom: 45px !important;
+		padding-bottom: 200px !important;
 	}
+
 
 	#about-section
 	{
 		background-color: #fff;
 		color: black;
-		padding-top: 175px !important;
-		padding-bottom: 100px;
+		padding-top: 9% !important;
+		padding-bottom: 9% !important;
 	}
 
 	#waffles-waffle
 	{
 		margin-top: 150px !important;
 	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.navbar-nav
+	{
+		 height: 100vh;
+	}
+
+}
+
+.vl {
+	border-left: 6px solid #da251d;
+	height: 40px;
+	padding-right: 5px;
+}
+
+.map-wavycurve-top
+{
+	width: 100%;
+	top: 0;
+	height: auto;
+	position: absolute;
+	display: block;
+	bottom: 0;
+	z-index: 3;
+}
+
+.map-wavycurve-bottom
+{
+	width: 100%;
+	bottom: 0;
+	height: auto;
+	position: absolute;
+	display: block;
+	bottom: 0;
+	z-index: 3;
 }
 
 #logo
@@ -124,6 +169,7 @@ body, html{
 	color: white;
   padding-top: 50px;
 	padding-bottom: 0px;
+	position: relative;
 }
 
 #welcome-waffletime
@@ -204,7 +250,7 @@ body, html{
 	background-color: #fff;
 	color: black;
 	padding-top: 50px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 }
 
 .about-info
@@ -222,6 +268,12 @@ body, html{
 	-moz-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
 	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
 	border-radius: 15px;
+}
+
+.mobile-dropdown-copyright
+{
+	 font-family: 'IM Fell French Canon SC', serif !important;
+	 padding-top: 180px;
 }
 
 
@@ -339,14 +391,15 @@ body, html{
 
 .event-description
 {
-	 font-size: 0.78em !important;
-	 opacity: 0.95;
+	 font-family: 'KIMBERLE', sans-serif !important;
+	 font-size: 0.72em !important;
+	 opacity: .99;
 }
 
 #event-info-section
 {
 	background-color: #fa0002;
-	padding-bottom: 80px; 
+	padding-bottom: 80px;
 }
 
 #map-section
@@ -380,15 +433,24 @@ body, html{
 
 #footer
 {
-	/* padding-top: 50px; */
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 100%;
 }
 
 #franchise-section
 {
-	font-family: 'IM Fell French Canon SC', serif;
 	background-color: #030051;
 	color: white;
+	position: relative;
 	padding-top: 120px;
+}
+
+#franchise-section .nav-link
+{
+color: white !important;
 }
 
 #waffle-line
@@ -478,4 +540,101 @@ body, html{
 #manage-title
 {
 	font-size: 1.5em !important;
+}
+
+/*  Gabriel Palmares */
+
+.img-size{
+
+    width: 100%;
+    padding: 10px;
+}
+
+.evt:hover {
+	 border-radius: 35px;
+     background-color:#32a5fd;
+  color: white;
+}
+
+
+.zoom {
+    padding: 20px;
+ box-sizing: border-box;
+    transition: transform .2s;
+    width: 5px;
+    height: 395px;
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+.zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.event-text{
+	font-family: 'Satisfy', sans-serif !important;
+	font-weight: 800
+}
+
+#vl-white
+{
+    border-left: 4px solid #fee300;
+    height: 30px;
+    padding-right: 10px;
+}
+
+#vl-yellow
+{
+    border-left: 2px solid #fee300;
+    height: 200px;
+}
+
+#events-info-description
+{
+   font-weight: 400;
+}
+
+#event-info-section
+{
+
+	color: white;
+	font-size: 15px;
+	background-color: #fa0002;
+	padding-bottom: 80px;
+}
+
+
+.animate-spin{
+	animation:w3-spin 3s infinite linear
+	}
+	@keyframes w3-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.animate-fading{
+	animation:fading 5s infinite
+	}
+	@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.animate-opacity{
+	animation:opac 0.8s
+	}
+	@keyframes opac{from{opacity:0} to{opacity:1}}
+.animate-top{
+	position:relative;animation:animatetop 0.3s
+	}
+	@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.animate-left{
+	position:relative;animation:animateleft 0.3s
+	}
+	@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.animate-right{
+	position:relative;animation:animateright 0.3s
+	}
+	@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.animate-bottom{
+	position:relative;animation:animatebottom 0.3s
+	}
+	@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+#newspaper {
+   -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
 }

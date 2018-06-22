@@ -2,22 +2,40 @@ import React from 'react';
 import logo from './Layouts/img/logo.png';
 
 class Navigation extends React.Component {
+  constructor()
+  {
+    super();
+
+    this.state = {
+      hasClickedMENU: false,
+    }
+
+    this.toggleClassMenu= this.toggleClassMenu.bind(this);
+
+  }
+
+  toggleClassMenu(){
+    const currentState = this.state.hasClickedMENU;
+    this.setState({ hasClickedMENU: !currentState});
+  }
+
   render() {
     return (
       <nav id = "navbar-header" className = "navbar navbar-expand-lg navbar-light fixed-top">
-        <a className = "navbar-brand" href = "/">
-          <img id = "logo" src = {logo} alt = ""/>
+        <a className = "navbar-brand" href = "#root">
+          <img id = "logo" src = {logo} alt = "" className = {this.state.hasClickedMENU ? 'd-none': null} />
         </a>
-         <button className ="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <button className = "navbar-toggler" onClick = {this.toggleClassMenu} type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className = "navbar-toggler-icon"></span>
         </button>
-          <div className = "collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className = "collapse navbar-collapse mt-md-0 md-lg-0 mt-5" id="navbarNavAltMarkup">
             <div className = "navbar-nav ml-auto">
-              <a className = "nav-item nav-link mr-md-2" href = "#waffles-section">OUR WAFFLE</a>
-              <a className = "nav-item nav-link mr-md-2" href = "#about-section">ABOUT US</a>
-              <a className = "nav-item nav-link mr-md-2" href = "#events-section">EVENTS</a>
-              <a className = "nav-item nav-link mr-md-2" href = "#map-section">OUR STORES</a>
-              <a className = "nav-item nav-link" href = "/">CONTACT US</a>
+              <a className = "nav-item nav-link mr-md-2 text-center" href = "#waffles-section">OUR WAFFLE</a>
+              <a className = "nav-item nav-link mr-md-2 text-center" href = "#about-section">ABOUT US</a>
+              <a className = "nav-item nav-link mr-md-2 text-center" href = "#events-section">EVENTS</a>
+              <a className = "nav-item nav-link mr-md-2 text-center" href = "#map-section">OUR STORES</a>
+              <a className = "nav-item nav-link text-center" href = "#franchise-section">CONTACT US</a>
+              <p className = {!this.state.hasClickedMENU ? 'd-none': 'h6 text-center mobile-dropdown-copyright'}>Waffle Time Inc., © All Rights Reserved 2018</p>
             </div>
         </div>
       </nav>

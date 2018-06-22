@@ -1,6 +1,14 @@
 import React from 'react';
 import Slider from 'react-slick';
 
+import waffle1 from './Layouts/img/waffle1.jpg';
+import waffle2 from './Layouts/img/waffle2.png';
+import waffle3 from './Layouts/img/waffle3.jpg';
+import waffle4 from './Layouts/img/waffle4.png';
+import waffle5 from './Layouts/img/waffle5.png';
+import waffle6 from './Layouts/img/waffle6.png';
+import waffle7 from './Layouts/img/waffle7.jpg';
+
 class Events extends React.Component{
   render(){
     var settings = {
@@ -8,6 +16,9 @@ class Events extends React.Component{
        centerMode: true,
        centerPadding: '60px',
        slidesToShow: 3,
+       speed: 1000,
+       autoplay: true,
+       autoplaySpeed: 4500,
        responsive: [
          {
            breakpoint: 768,
@@ -32,97 +43,111 @@ class Events extends React.Component{
 
     return(
       <div id = "events-section" className = "row">
-        <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-5">
+        <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
           <p className = "display-4 text-center"> EVERYTIME IS WAFFLE TIME!</p>
         </div>
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12">
         </div>
         <div id = "event-slider" className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
-           <div>
-             <img className = "img-fluid img-thumbnail " src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJwrTzMfJylMplWL_L9ePRVXswBayg1CRm0oHBY2jC4NE3ae4" />
-             <p className = "mt-3 h3 font-weight-bold">
-                      Hello World
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle1} />
+              <p className = "event-description">
+                Hello world
               </p>
-             <p className = "mt-3 event-description text-justify mx-2">
+              <p className = "mt-1 mx-1 event-description text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris semper eu dui a faucibus consectetur adipiscing dolor
                 sit amet, consectetur adipiscing.
-             </p>
-             <small className = "mt-2 text-muted float-right">
-              Monday, 4 June 2018
-             </small>
-           </div>
-           <div>
-             <img className = "img-fluid img-thumbnail" src = "https://b.zmtcdn.com/data/pictures/chains/8/17815458/4dc2bb69366844cb90a2b53494daba81.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A" />
-             <p className = "mt-3 h3 font-weight-bold">
-                      Hello World
               </p>
-             <p className = "mt-3 event-description text-justify mx-2">
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle2} />
+              <p className = "event-description">
+                Hello world
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Mauris semper eu dui a faucibus consectetur adipiscing dolor
                 sit amet, consectetur adipiscing.
-             </p>
-             <small className = "mt-2 text-muted float-right">
-              Monday, 4 June 2018
-             </small>
-           </div>
-           <div>
-           <img className = "img-fluid img-thumbnail " src = "http://waffletime.com/img/products/products1.png" />
-           <p className = "mt-3 h3 font-weight-bold">
-                    Hello World
-            </p>
-           <p className = "mt-3 event-description text-justify mx-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris semper eu dui a faucibus consectetur adipiscing dolor
-              sit amet, consectetur adipiscing.
-           </p>
-           <small className = "mt-2 text-muted float-right">
-            Monday, 4 June 2018
-           </small>
-           </div>
-           <div>
-           <img className = "img-fluid img-thumbnail " src = "https://www.kanegosyo.com/assets/uploads/Waffle_Time.png" />
-           <p className = "mt-3 h3 font-weight-bold">
-                    Hello World
-            </p>
-           <p className = "mt-3 event-description text-justify mx-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris semper eu dui a faucibus consectetur adipiscing dolor
-              sit amet, consectetur adipiscing.
-           </p>
-           <small className = "mt-2 text-muted float-right">
-            Monday, 4 June 2018
-           </small>
-           </div>
-           <div>
-           <img className = "img-fluid img-thumbnail " src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFjOToicgoANJ8glga6vgJP_q68a2s4v7mGnc7mraqRxGImoMd" />
-           <p className = "mt-3 h3 font-weight-bold">
-                    Hello World
-            </p>
-           <p className = "mt-3 event-description text-justify mx-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris semper eu dui a faucibus consectetur adipiscing dolor
-              sit amet, consectetur adipiscing.
-           </p>
-           <small className = "mt-2 text-muted float-right">
-            Monday, 4 June 2018
-           </small>
-           </div>
-           <div>
-           <img className = "img-fluid img-thumbnail " src = "http://www.waffletime.com/img/about/different%20fillin.png" />
-           <p className = "mt-3 h3 font-weight-bold">
-                    Hello World
-            </p>
-           <p className = "mt-3 event-description text-justify mx-2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Mauris semper eu dui a faucibus consectetur adipiscing dolor
-              sit amet, consectetur adipiscing.
-           </p>
-           <small className = "mt-2 text-muted float-right">
-            Monday, 4 June 2018
-           </small>
-           </div>
+              </p>
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle3} />
+              <p className = "event-description">
+                Hello world
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris semper eu dui a faucibus consectetur adipiscing dolor
+                sit amet, consectetur adipiscing.
+              </p>
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle4} />
+              <p className = "event-description">
+                Hello world
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris semper eu dui a faucibus consectetur adipiscing dolor
+                sit amet, consectetur adipiscing.
+              </p>
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle5} />
+              <p className = "event-description">
+                Hello world
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris semper eu dui a faucibus consectetur adipiscing dolor
+                sit amet, consectetur adipiscing.
+              </p>
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle6} />
+              <p className = "event-description">
+                Hello world
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris semper eu dui a faucibus consectetur adipiscing dolor
+                sit amet, consectetur adipiscing.
+              </p>
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
+          <div className = "zoom evt">
+            <img className = "img-size" src = {waffle7} />
+              <p className = "event-description">
+                Hello world
+              </p>
+              <p className = "mt-1 mx-1 event-description text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Mauris semper eu dui a faucibus consectetur adipiscing dolor
+                sit amet, consectetur adipiscing.
+              </p>
+              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
+                Monday, 4 June 2018
+              </small>
+          </div>
          </Slider>
         </div>
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm12">
