@@ -15,7 +15,7 @@ class Home extends React.Component{
             <img id = "welcome-waffletime" className = "img-fluid mt-5" src = {welcome} alt = "Welcome to Waffle Time!"/>
             <img id = "cloud3" alt = "Waffle Time Clouds" className = "cloud img-fluid ml-5 mt-35 d-none d-lg-block" src = {cloud} />
             <span className = "d-none d-lg-inline">
-            <a id = "franchiseebtn" href = "/" className = "btn btn-lg btn-primary mt-md-2 animate-bottom">BE A FRANCHISEE!</a>
+            <a id = "franchiseebtn" href = "#franchise-section" className = "btn btn-lg btn-primary mt-md-2 animate-bottom">BE A FRANCHISEE!</a>
             </span>
           </div>
           <div className = "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">

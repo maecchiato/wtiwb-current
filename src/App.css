@@ -42,10 +42,10 @@ body, html{
   color: red !important;
 }
 
-.nav-link:hover
+nav .nav-link:hover
 {
 	color:#fff !important;
-	background-color:#fa0002;
+	background-color:#fa0002 !important;
 	-webkit-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
 	-moz-box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
 	box-shadow: 2px 2px 2px -1px rgba(0,0,0,0.36);
@@ -96,7 +96,14 @@ body, html{
 
 	#waffles-waffle
 	{
-		margin-top: 150px !important;
+		margin-top: 80px !important;
+	}
+
+	#social-media
+	{
+		position: absolute;
+		bottom: 3%;
+		left: 81%;
 	}
 
 }
@@ -453,6 +460,19 @@ body, html{
 color: white !important;
 }
 
+#franchise-section .alert-primary
+{
+	color: #030051;
+	background-color: #fee300;
+	border-color: #fee300;
+}
+
+#franchise-section .btn-success {
+	color: #030051;
+	background-color: #fee300;
+	border-color: #fee300;
+}
+
 #waffle-line
 {
 	background-color: red;
@@ -637,4 +657,29 @@ color: white !important;
    -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+}
+
+#social-media
+{
+	font-size: 40px !important;
+}
+
+#social-media a
+{
+	color: white;
+}
+
+#about-us-stars
+{
+	color: red;
+}
+
+#v-pills-faq a
+{
+	text-decoration:none;
+}
+
+#v-pills-contact a
+{
+	text-decoration: none;
 }

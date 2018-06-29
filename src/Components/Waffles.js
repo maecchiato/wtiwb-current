@@ -30,13 +30,6 @@ class waffles extends React.Component{
                   ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                   aliquip ex ea commodo consequat.
                 </p>
-                <p id = "waffle-definition-title-3" className = "h5">What Makes it Special?</p>
-                  <p id = "waffle-definition-3" className = "add-box">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-              </p>
             </span>
         </div>
         <img id = "waffle-curve" src = {curve} className = "img-fluid"/>

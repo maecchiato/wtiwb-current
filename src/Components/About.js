@@ -1,6 +1,6 @@
 import React from 'react';
 
-import waffy from './Layouts/img/waffy.png'
+import waffy from './Layouts/img/20-years.jpg'
 
 class About extends React.Component{
   render(){
@@ -16,7 +16,7 @@ class About extends React.Component{
               <a className="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">MISSION AND VISION</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">BE ONE OF US!</a>
+              <a className="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">AWARDS & ACHIEVEMENTS</a>
             </li>
             </ul>
 
@@ -73,8 +73,16 @@ class About extends React.Component{
             <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
           </div>
         </div>
-        <div className = "col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12">
-          <img className = "img-fluid px-5 " src = {waffy} />
+        <div className = "col-xl-4 col-lg-4 col-md-3 col-sm-12 col-xs-12 text-center">
+          <img className = "img-fluid px-5" src = {waffy} />
+          <span id = "about-us-stars">
+                  <i className="fas fa-star mr-2"></i>
+                  <i className="fas fa-star mr-2"></i>
+                  <i className="fas fa-star mr-2"></i>
+                  <i className="fas fa-star mr-2"></i>
+                  <i className="fas fa-star "></i>
+          </span>
+
         </div>
       </div>
     )

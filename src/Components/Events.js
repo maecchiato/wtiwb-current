@@ -44,7 +44,7 @@ class Events extends React.Component{
     return(
       <div id = "events-section" className = "row">
         <div className = "col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center mb-1">
-          <p className = "display-4 text-center"> EVERYTIME IS WAFFLE TIME!</p>
+          <p className = "display-4 text-center">EVENTS AND ACTIVITIES</p>
         </div>
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm-12">
         </div>
