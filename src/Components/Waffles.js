@@ -26,7 +26,7 @@ class waffles extends React.Component{
               </p>
               <p id = "waffle-definition-title-3" className = "h5">For the people, by the people</p>
                 <p id = "waffle-definition-3" className = "add-box">
-                  Waffle Time offers a variety of flavors, at a very affordable price! Ano pa ang hinahanap nyo? Mag Waffle Time!
+                  Waffle Time offers a variety of flavors, at a very affordable price! Ano pa ang hinahanap nyo? Mag Waffle Time na tayo!
               </p>
             </span>
         </div>

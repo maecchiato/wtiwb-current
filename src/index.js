@@ -19,9 +19,9 @@ registerServiceWorker();
 ReactDOM.render(
   <BrowserRouter>
       <Switch>
-        <Route exact path ="/" component = {App} />
-        <Route exact path = "/admin" component = {Admin} />
-        <Route exact path = "/admin/manage" component = {manage} />
+        <Route exact path = {`${process.env.PUBLIC_URL}/`} component = {App} />
+        <Route exact path = {`${process.env.PUBLIC_URL}/admin`} component = {Admin} />
+        <Route exact path = {`${process.env.PUBLIC_URL}/admin/manage`} component = {manage} />
       </Switch>
   </BrowserRouter>
   , document.getElementById('root')

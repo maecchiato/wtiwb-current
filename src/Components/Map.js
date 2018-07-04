@@ -92,22 +92,42 @@ const MapWithASearchBox = compose(
     )(props =>
      <GoogleMap
        ref={props.onMapMounted}
-       defaultZoom={14}
+       defaultZoom={13}
        center={{lat: 10.7202, lng: 122.5621 }}
        defaultOptions={defaultMapOptions}
        >
        {props.isMarkerShown && (
-         <Marker position={{ lat: 10.7202, lng: 122.5621 }} />
+         <Marker position={{ lat: 10.7537987, lng: 122.5378174 }} />
        )}
       {props.isMarkerShowns && (
-         <Marker position={{ lat: 10.7244, lng: 122.5573}} />
+         <Marker position={{ lat: 10.7538192, lng: 122.5394794}} />
        )}
        {props.MarkerShowns && (
-         <Marker position={{ lat: 10.7146, lng: 122.5516 }} />
-
+         <Marker position={{ lat: 10.7520137, lng: 122.5379397 }} />
        )}
        {props.MarkerShowns && (
-         <Marker position={{ lat: 10.7259356, lng: 122.55376 }} />
+         <Marker position={{ lat: 10.7183068, lng: 122.5596691 }} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.6979304, lng: 122.5680173}} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.711603, lng: 122.5506618}} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.6973053, lng: 122.5671713}} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.70051, lng: 122.5654568}} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.6947405, lng: 122.5472622}} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.6964249, lng: 122.5636855}} />
+       )}
+       {props.MarkerShowns && (
+         <Marker position={{ lat: 10.6970144, lng: 122.5669942}} />
        )}
 
      </GoogleMap>
