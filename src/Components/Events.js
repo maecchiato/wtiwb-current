@@ -1,13 +1,12 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-import waffle1 from './Layouts/img/waffle1.jpg';
-import waffle2 from './Layouts/img/waffle2.png';
-import waffle3 from './Layouts/img/waffle3.jpg';
-import waffle4 from './Layouts/img/waffle4.png';
-import waffle5 from './Layouts/img/waffle5.png';
-import waffle6 from './Layouts/img/waffle6.png';
-import waffle7 from './Layouts/img/waffle7.jpg';
+import events1 from './Layouts/img/advertisements/events1.jpg';
+import events2 from './Layouts/img/advertisements/events2.jpg';
+import events3 from './Layouts/img/advertisements/events3.jpg';
+import events4 from './Layouts/img/advertisements/events4.jpg';
+import events5 from './Layouts/img/advertisements/events5.jpg';
+import events6 from './Layouts/img/advertisements/events6.jpg';
 
 class Events extends React.Component{
   render(){
@@ -51,103 +50,78 @@ class Events extends React.Component{
         <div id = "event-slider" className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12 text-center">
         <Slider {...settings}>
           <div className = "zoom evt">
-            <img className = "img-size" src = {waffle1} />
+            <img className = "img-size" src = {events1} />
               <p className = "event-description">
-                Hello world
+                Waffy goes on a Natiownide Tour!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
+
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
                 Monday, 4 June 2018
               </small>
           </div>
           <div className = "zoom evt">
-            <img className = "img-size" src = {waffle2} />
+            <img className = "img-size" src = {events2} />
               <p className = "event-description">
-                Hello world
+                Waffle Time&apos;s Treat to the Best Mothers of the World!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
+
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
                 Monday, 4 June 2018
               </small>
           </div>
           <div className = "zoom evt">
-            <img className = "img-size" src = {waffle3} />
+            <img className = "img-size" src = {events3} />
               <p className = "event-description">
-                Hello world
+                Waffle Time launched the year-long celebration of its 20th Anniversary!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
+
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
+                Monday, 4 July 2018
               </small>
           </div>
           <div className = "zoom evt">
-            <img className = "img-size" src = {waffle4} />
+            <img className = "img-size" src = {events4} />
               <p className = "event-description">
-                Hello world
+                Special Promo Alert!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
+
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
+                Sunday, 1 July 2018
               </small>
           </div>
           <div className = "zoom evt">
-            <img className = "img-size" src = {waffle5} />
+            <img className = "img-size" src = {events5} />
               <p className = "event-description">
-                Hello world
+                 Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
+
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
+                Sunday, 1 June 2018
               </small>
           </div>
           <div className = "zoom evt">
-            <img className = "img-size" src = {waffle6} />
+            <img className = "img-size" src = {events6} />
               <p className = "event-description">
-                Hello world
+                We honor Dads with Waffle-licious Gifts on Father&apos;s Day
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
+
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
+                Sunday, 1 June 2018
               </small>
           </div>
-          <div className = "zoom evt">
-            <img className = "img-size" src = {waffle7} />
-              <p className = "event-description">
-                Hello world
-              </p>
-              <p className = "mt-1 mx-1 event-description text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Mauris semper eu dui a faucibus consectetur adipiscing dolor
-                sit amet, consectetur adipiscing.
-              </p>
-              <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
-              </small>
-          </div>
+
          </Slider>
         </div>
         <div className = "col-xl-2 col-lg-2 col-md-2 col-xs-12 col-sm12">

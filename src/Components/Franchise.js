@@ -8,31 +8,31 @@ class Map extends React.Component{
     return(
       <div id = "franchise-section" className = "row justify-content-sm-center">
       <img id = "footer" src = {imgfooter} alt = "Green Grasses! WAOW" className = "img-fluid" />
-        <div className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
-        <span id = "social-media" className = "d-none d-md-block">
-          <span id = "social-media-display" className = "float-right mt-2">
-            <p className = "h5 mb-0">Stay Connected</p>
-            <span id = "social-media-icons" className = "float-right">
-              <a href = "https://www.facebook.com/WaffleTimeInc/">
-                <i className="fab fa-facebook-square mr-2"></i>
-              </a>
-              <a href = "https://twitter.com/waffletime_ph?lang=en">
-                <i className="fab fa-twitter-square mr-2"></i>
-              </a>
-              <a href = "https://www.instagram.com/waffletime_ph/">
-                <i className="fab fa-instagram"></i>
-              </a>
-            </span>
+      <span id = "social-media" className = "d-none d-md-block">
+        <span id = "social-media-display" className = "float-right mt-2">
+          <p className = "h5 mb-0">Stay Connected</p>
+          <span id = "social-media-icons" className = "float-right">
+            <a href = "https://www.facebook.com/WaffleTimeInc/">
+              <i className="fab fa-facebook-square mr-2"></i>
+            </a>
+            <a href = "https://twitter.com/waffletime_ph?lang=en">
+              <i className="fab fa-twitter-square mr-2"></i>
+            </a>
+            <a href = "https://www.instagram.com/waffletime_ph/">
+              <i className="fab fa-instagram"></i>
+            </a>
           </span>
         </span>
+      </span>
+        <div className = "col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
         <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-4">
               <div className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a className="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                  Why Waffletime?
+                  Why Waffle Time?
                 </a>
                 <a className="nav-link" id="v-pills-faq-tab" data-toggle="pill" href="#v-pills-faq" role="tab" aria-controls="v-pills-faq" aria-selected="false">
-                  F.A.Q.
+                  FAQ
                 </a>
                 <a className="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-messages" aria-selected="false">
                   Contact Us!
@@ -45,61 +45,121 @@ class Map extends React.Component{
             <div className = "col-md-1">
               <div id = "vl-yellow" className = "d-none d-md-block"></div>
             </div>
-            <div className="col-md-8 pt-5 pt-md-0">
+            <div className="col-md-7 pt-5 pt-md-0">
               <div className="tab-content" id="v-pills-tabContent">
                 <div className="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                  <p className = "font-weight-bold mb-3">Why Waffletime?</p>
+                  <p className = "font-weight-bold mb-3">Why Waffle Time?</p>
                   <p className = "">
-                  Waffletime is a recognized brand or trademark that can guarantee you with success. I think it's great to be a part of a franchise that is successful. Any franchise is successful because it's a continuation and people have seen it. We want you to be completely satisfied with our services. We will do whatever it takes to make you happy. No hassles, no problems.
+                  Waffle Time is a recognized brand or trademark that can guarantee you with success. I think it's great to be a part of a franchise that is successful. Any franchise is successful because it's a continuation and people have seen it. We want you to be completely satisfied with our services. We will do whatever it takes to make you happy. No hassles, no problems.
                   </p>
                 </div>
+
                 <div className="tab-pane fade" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 
                 <a href = "#" data-toggle="collapse" data-target="#FAQ1">
                   <div className="alert alert-primary" role="alert">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+                    Q: How much is the total cost of the Franchise Package?
                   </div>
                 </a>
 
                 <div id="FAQ1" className="collapse">
                 <p className = "small">
-                  Praesent luctus efficitur lorem, in tincidunt magna convallis at. Curabitur in leo et elit gravida egestas. Phasellus eget risus efficitur, egestas mi ac.
+                  A: Total Franchise Package is Php 250,000
                 </p>
                 </div>
 
                 <a href = "#" data-toggle="collapse" data-target="#FAQ2">
                   <div className="alert alert-primary" role="alert">
-                    Proin faucibus id arcu nec convallis. Nulla mauris ligula?
+                    Q: What comes with the package?
                   </div>
                 </a>
 
                 <div id="FAQ2" className="collapse">
                 <p className = "small">
-                  Praesent luctus efficitur lorem, in tincidunt magna convallis at. Curabitur in leo et elit gravida egestas. Phasellus eget risus efficitur, egestas mi ac.
+                  A: The Franchise package includes the following:
+                  <ul>
+                    <li>
+                      Franchise fee
+                    </li>
+                    <li>
+                      Cart and Equipment
+                    </li>
+                    <li>
+                      Trainings, orientation and crew uniforms
+                    </li>
+                  </ul>
                 </p>
                 </div>
 
                 <a href = "#" data-toggle="collapse" data-target="#FAQ3">
                   <div className="alert alert-primary" role="alert">
-                    Donec vitae turpis quis nulla varius semper. Phasellus ac nunc ut elit venenatis tincidunt?
+                    Q: Does Waffle Time require any Security Deposit
                   </div>
                 </a>
 
                 <div id="FAQ3" className="collapse">
                 <p className = "small">
-                Praesent luctus efficitur lorem, in tincidunt magna convallis at. Curabitur in leo et elit gravida egestas. Phasellus eget risus efficitur, egestas mi ac.
+                  A: Waffle Time requires a Php 50,000 security deposit which should be paid before actual opening
                 </p>
                 </div>
 
                 <a href = "#" data-toggle="collapse" data-target="#FAQ4">
                   <div className="alert alert-primary" role="alert">
-                    Sed euismod, diam non commodo imperdiet, lorem ex?
+                    Q: Does Waffle Time provide manpower?
                   </div>
                 </a>
 
                 <div id="FAQ4" className="collapse">
                   <p className = "small">
-                  Praesent luctus efficitur lorem, in tincidunt magna convallis at. Curabitur in leo et elit gravida egestas. Phasellus eget risus efficitur, egestas mi ac.
+                    A: The Franchisee will be the one to hire their personnel. However, Waffle Time will screen and train them at no cost.
+                  </p>
+                </div>
+
+                <a href = "#" data-toggle="collapse" data-target="#FAQ5">
+                  <div className="alert alert-primary" role="alert">
+                    Q: Is there any Royalty Fee?
+                  </div>
+                </a>
+
+                <div id="FAQ5" className="collapse">
+                  <p className = "small">
+                    A: There is no Royalty Fee
+                  </p>
+                </div>
+
+                <a href = "#" data-toggle="collapse" data-target="#FAQ6">
+                  <div className="alert alert-primary" role="alert">
+                    Q: What is the minimum space requirement?
+                  </div>
+                </a>
+
+                <div id="FAQ6" className="collapse">
+                  <p className = "small">
+                    A: Minimum space requirement is 2m x 2m or 4 square meters.
+                  </p>
+                </div>
+
+                <a href = "#" data-toggle="collapse" data-target="#FAQ7">
+                  <div className="alert alert-primary" role="alert">
+                    Q: When is the expected ROI?
+                  </div>
+                </a>
+
+                <div id="FAQ7" className="collapse">
+                  <p className = "small">
+                    A: On the average, ROI is around 6 to 12 months. It will depend on the sales performance and the operation cost of the outlet.
+                  </p>
+                </div>
+
+                <a href = "#" data-toggle="collapse" data-target="#FAQ8">
+                  <div className="alert alert-primary" role="alert">
+                    Q: Does Waffle Time provide the location?
+                  </div>
+                </a>
+
+                <div id="FAQ8" className="collapse">
+                  <p className = "small">
+                    A: The franchisee will be the one to look for their own location and at the same time the franchise applicant will be oriented on how to evaluate their perspective proposed locations.
                   </p>
                 </div>
 
@@ -112,20 +172,20 @@ class Map extends React.Component{
                   </a>
 
                   <div id="MANILAOFFICE" className="collapse">
-                    <p className = "small">
-                      <p className = "small mb-2">
+                    <p className = "h6">
+                      <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-home mr-2"></i>
                         # 69 C, Raymundo Avenue Brgy Caniogan, Pasig City
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-phone-square mr-2"></i>
                           (033) 335 - 00 - 26 | (632) 584 - 37 - 04 | (63)(2) 641 - 11 - 51
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-mobile-alt mr-2"></i>
                           +63933851968
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "h6 mb-4 font-weight-light">
                         <i className="fas fa-fax mr-2"></i>
                         (632) 684 - 18 - 70
                       </p>
@@ -139,20 +199,20 @@ class Map extends React.Component{
                   </a>
 
                   <div id="ILOILOOFFICE" className="collapse">
-                    <p className = "small">
-                      <p className = "small mb-2">
+                    <p className = "h6 font-weight-light">
+                      <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
                         Door 5, Q.H.P. Building, Arsenal St. Iloilo City, 5000, Philippines
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
                           (63) 335 - 09 - 35
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-2">
                         <i className="fas fa-mobile-alt mr-2"></i>
                           +639338633846
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-4">
                         <i className="fas fa-fax mr-2"></i>
                         (63) 335 - 00 - 26
                       </p>
@@ -166,20 +226,20 @@ class Map extends React.Component{
                   </a>
 
                   <div id="CEBUOFFICE" className="collapse">
-                    <p className = "small">
-                      <p className = "small mb-2">
+                    <p className = "h6 font-weight-light">
+                      <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
                           338-8G Victor Village, Tres De Abril, Punta Princesa, Labangon, Cebu City
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
                           (032) 253 - 96 - 79 | (032) 417 - 45 - 48
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-2">
                         <i className="fas fa-mobile-alt mr-2"></i>
                           +639429602214
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-4">
                         <i className="fas fa-fax mr-2"></i>
                         (032) 253 - 96 - 79
                       </p>
@@ -193,16 +253,16 @@ class Map extends React.Component{
                   </a>
 
                   <div id="CAGAYANDEOROOFFICE" className="collapse">
-                    <p className = "small">
-                      <p className = "small mb-2">
+                    <p className = "h6 font-weight-light">
+                      <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
                         3699 Las Piedras Village, Capisnon, Kauswagan, Cagayan De Oro City
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
                           (088) 850 - 01 - 28
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-4">
                         <i className="fas fa-mobile-alt mr-2"></i>
                           +639338514498
                       </p>
@@ -215,16 +275,16 @@ class Map extends React.Component{
                   </a>
 
                   <div id="DAVAOOFFICE" className="collapse">
-                    <p className = "small">
-                      <p className = "small mb-2">
+                    <p className = "h6 font-weight-light">
+                      <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
                           #32B Mariner St., Dona Vincenta Village, Davao City
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-2">``
                         <i className="fas fa-phone-square mr-2"></i>
                           (082) 298 - 53 - 35
                       </p>
-                      <p className = "small mb-2">
+                      <p className = "mb-4">
                         <i className="fas fa-mobile-alt mr-2"></i>
                           +639338513967
                       </p>
@@ -234,7 +294,7 @@ class Map extends React.Component{
                 <div className="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
                   <p className = "font-weight-bold h4 mb-3">Interested?</p>
                   <p className = "p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque risus dui, lacinia eget mattis eu, vulputate sed neque. Sed mattis tincidunt nisi et volutpat.
+                    Join our growing Waffle Time family today! Franchise now!
                   </p>
                   <a href ="mailto:franchising@waffletime.com?Subject=Franchise%20Inquiry" className = "btn btn-success float-right mt-5 mb-3 mr-2" target = "_top">
                     Send us an Email
@@ -260,7 +320,7 @@ class Map extends React.Component{
             </span>
           </span>
         </div>
-        <div className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 mx-auto">
+        <div className = "col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 mx-auto" id = "footer-img">
           <img src = {waffywalking} alt = "Walking Waffy" className = "img-fluid mt-5 ml-lg-0 ml-4 ml-md-0 ml-sm-5" />
         </div>
         <div className = "col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
