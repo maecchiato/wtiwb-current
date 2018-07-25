@@ -175,19 +175,19 @@ class Map extends React.Component{
                     <p className = "h6">
                       <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-home mr-2"></i>
-                        # 69 C, Raymundo Avenue Brgy Caniogan, Pasig City
+                        #69 C. Raymundo Ave., Brgy. Caniogan, Pasig City, Philippines 1606
                       </p>
                       <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (033) 335 - 00 - 26 | (632) 584 - 37 - 04 | (63)(2) 641 - 11 - 51
+                          (632) 584 - 1601 | (632) 584 - 3704
                       </p>
                       <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-mobile-alt mr-2"></i>
-                          +63933851968
+                          +639338513968
                       </p>
                       <p className = "h6 mb-4 font-weight-light">
                         <i className="fas fa-fax mr-2"></i>
-                        (632) 684 - 18 - 70
+                        (632) - 642 - 1870
                       </p>
                     </p>
                   </div>
@@ -202,11 +202,11 @@ class Map extends React.Component{
                     <p className = "h6 font-weight-light">
                       <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
-                        Door 5, Q.H.P. Building, Arsenal St. Iloilo City, 5000, Philippines
+                          Door 5, Q.H.P Bdlg., Arsenal St., Iloilo City, Philippines 5000
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (63) 335 - 09 - 35
+                          (6333) - 335 - 0935
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-mobile-alt mr-2"></i>
@@ -214,7 +214,7 @@ class Map extends React.Component{
                       </p>
                       <p className = "mb-4">
                         <i className="fas fa-fax mr-2"></i>
-                        (63) 335 - 00 - 26
+                        (6333) - 335 - 0026
                       </p>
                     </p>
                   </div>
@@ -229,19 +229,19 @@ class Map extends React.Component{
                     <p className = "h6 font-weight-light">
                       <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
-                          338-8G Victor Village, Tres De Abril, Punta Princesa, Labangon, Cebu City
+                          338-8G Victor Village, Tres De Abril, Punta Princesa, Labangon, Cebu City, Philippines 6000
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (032) 253 - 96 - 79 | (032) 417 - 45 - 48
+                          (6332) - 253 - 9679 | (6332) - 417 - 4548
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-mobile-alt mr-2"></i>
-                          +639429602214
+                          +639338117037
                       </p>
                       <p className = "mb-4">
                         <i className="fas fa-fax mr-2"></i>
-                        (032) 253 - 96 - 79
+                          (6332) - 253 - 9679
                       </p>
                     </p>
                   </div>
@@ -256,11 +256,11 @@ class Map extends React.Component{
                     <p className = "h6 font-weight-light">
                       <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
-                        3699 Las Piedras Village, Capisnon, Kauswagan, Cagayan De Oro City
+                          3699 Las Piedras Village, Capisnon, Kauswagan, Cagayan De Oro City, Philippines 9000
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (088) 850 - 01 - 28
+                          (6388) - 850 - 0218
                       </p>
                       <p className = "mb-4">
                         <i className="fas fa-mobile-alt mr-2"></i>
@@ -278,11 +278,11 @@ class Map extends React.Component{
                     <p className = "h6 font-weight-light">
                       <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
-                          #32B Mariner St., Dona Vincenta Village, Davao City
+                          #32B Mariner St., Doña Vicenta Village, Davao City, Philippines 8000
                       </p>
                       <p className = "mb-2">``
                         <i className="fas fa-phone-square mr-2"></i>
-                          (082) 298 - 53 - 35
+                          (6382) - 298 - 5335
                       </p>
                       <p className = "mb-4">
                         <i className="fas fa-mobile-alt mr-2"></i>

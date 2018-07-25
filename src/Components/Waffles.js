@@ -22,7 +22,7 @@ class waffles extends React.Component{
               </p>
               <p id = "waffle-definition-title-2" className = "h5">Made by Hand. With Love.</p>
                 <p id = "waffle-definition-2" className = "add-box">
-                  Since its inception, Waffle Time had been consistent to its flavors. Staying true to its words of &apos; Ang Pambansang Waffle ng Pilipinas &apos;
+                  Since its inception, Waffle Time had been consistent to its flavors. Staying true to its words of Ang Pambansang Waffle ng Pilipinas
               </p>
               <p id = "waffle-definition-title-3" className = "h5">For the people, by the people</p>
                 <p id = "waffle-definition-3" className = "add-box">

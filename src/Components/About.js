@@ -22,21 +22,25 @@ class About extends React.Component{
 
             <div className="tab-content mb-3 ml-lg-5 ml-2" id="pills-tabContent">
             <div className="tab-pane fade show active ml-md-3" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-              <p className = "blockquote mt-3 mr-5">
-                Waffle Time started on September of 1998 in the province of
-                Iloilo, Philippines as a simple business venture.
+              <p className = "blockquote mt-4 mr-5">
+                Waffle Time started on September of 1998 in the province of Iloilo, Philippines as a simple business venture. The first outlet was in The Atrium Mall, Gen. Luna St., Iloilo City.
+                With 7 profitable outlets, the owners were very optimist that the concept and brand is ready for expansion.
               </p>
               <p className = "blockquote mt-3 mr-5">
-                The first outlet was in The Atrium Mall, Gen. Luna St., Iloilo City.
-                On June 2002, Waffle Time started to penetrate the Metro Manila market.
-                After which, we opened outlets in Cebu, Cagayan De Oro and Davao.
+                Waffle Time registered as a corporation, from being a single-proprietorship owned business, in May of 2002.
+                It is also a registered name and trademark under the Intelectual Property Office of the Philippines.
+              </p>
+              <p className = "blockquote mt-3 mr-5">
+                On June 2002, Waffle Time started to penetrate the Metro Manila market. The concept was well received and became an instant hit. From
+                then on, we opened area offices and outlets in Cebu, Cagayan De Oro and Davao regions.
+              </p>
+              <p className = "blockquote mt-3 mr-5">
+                Waffle Time opened its door to franchising on March 2004. With an established business system and a remarkable brand, Franchisees came in line to have their own franchised
+                outlets that has brought exponential growth in the number of branches we have nationwide.
               </p>
               <p className = "blockquote mt-3 mr-5 mb-5">
-                Waffle Time opened its door to franchising on March 2004. After then Waffle
-                Time Outlets mushroomed all over the Philippine Islands. This proves on our
-                popularity and acceptance by our customers of all ages. And we&apos;ll still
-                be opening more outlets as we continue to deliver delicious, nutritious and
-                reasonably-priced waffles to everyone.
+                Today, Waffle Time boasts of over 400 outlets nationwide and is still actively expanding into new regions and territories. Waffle Time is
+                aiming, from being Ang Pambansang Waffle ng Pilipinas, to become the Best Waffles in the World!
               </p>
 
             </div>
