@@ -56,7 +56,7 @@ class Map extends React.Component{
 
                 <div className="tab-pane fade" id="v-pills-faq" role="tabpanel" aria-labelledby="v-pills-profile-tab">
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ1">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ1">
                   <div className="alert alert-primary" role="alert">
                     Q: How much is the total cost of the Franchise Package?
                   </div>
@@ -68,7 +68,7 @@ class Map extends React.Component{
                 </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ2">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ2">
                   <div className="alert alert-primary" role="alert">
                     Q: What comes with the package?
                   </div>
@@ -91,7 +91,7 @@ class Map extends React.Component{
                 </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ3">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ3">
                   <div className="alert alert-primary" role="alert">
                     Q: Does Waffle Time require any Security Deposit
                   </div>
@@ -103,7 +103,7 @@ class Map extends React.Component{
                 </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ4">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ4">
                   <div className="alert alert-primary" role="alert">
                     Q: Does Waffle Time provide manpower?
                   </div>
@@ -115,7 +115,7 @@ class Map extends React.Component{
                   </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ5">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ5">
                   <div className="alert alert-primary" role="alert">
                     Q: Is there any Royalty Fee?
                   </div>
@@ -127,7 +127,7 @@ class Map extends React.Component{
                   </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ6">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ6">
                   <div className="alert alert-primary" role="alert">
                     Q: What is the minimum space requirement?
                   </div>
@@ -139,7 +139,7 @@ class Map extends React.Component{
                   </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ7">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ7">
                   <div className="alert alert-primary" role="alert">
                     Q: When is the expected ROI?
                   </div>
@@ -151,7 +151,7 @@ class Map extends React.Component{
                   </p>
                 </div>
 
-                <a href = "#" data-toggle="collapse" data-target="#FAQ8">
+                <a href = "/" data-toggle="collapse" data-target="#FAQ8">
                   <div className="alert alert-primary" role="alert">
                     Q: Does Waffle Time provide the location?
                   </div>
@@ -165,7 +165,7 @@ class Map extends React.Component{
 
                 </div>
                 <div className="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                  <a href = "#" data-toggle="collapse" data-target="#MANILAOFFICE">
+                  <a href = "/" data-toggle="collapse" data-target="#MANILAOFFICE">
                     <div className="alert alert-primary" role="alert">
                         Manila Office
                     </div>
@@ -192,7 +192,7 @@ class Map extends React.Component{
                     </p>
                   </div>
 
-                  <a href = "#" data-toggle="collapse" data-target="#ILOILOOFFICE">
+                  <a href = "/" data-toggle="collapse" data-target="#ILOILOOFFICE">
                     <div className="alert alert-primary" role="alert">
                         Iloilo Office
                     </div>
@@ -219,7 +219,7 @@ class Map extends React.Component{
                     </p>
                   </div>
 
-                  <a href = "#" data-toggle="collapse" data-target="#CEBUOFFICE">
+                  <a href = "/" data-toggle="collapse" data-target="#CEBUOFFICE">
                     <div className="alert alert-primary" role="alert">
                         Cebu Office
                     </div>
@@ -246,7 +246,7 @@ class Map extends React.Component{
                     </p>
                   </div>
 
-                  <a href = "#" data-toggle="collapse" data-target="#CAGAYANDEOROOFFICE">
+                  <a href = "/" data-toggle="collapse" data-target="#CAGAYANDEOROOFFICE">
                     <div className="alert alert-primary" role="alert">
                         Cagayan De Oro Office
                     </div>
@@ -268,7 +268,7 @@ class Map extends React.Component{
                       </p>
                     </p>
                   </div>
-                  <a href = "#" data-toggle="collapse" data-target="#DAVAOOFFICE">
+                  <a href = "/" data-toggle="collapse" data-target="#DAVAOOFFICE">
                     <div className="alert alert-primary" role="alert">
                         Davao Office
                     </div>
@@ -296,7 +296,7 @@ class Map extends React.Component{
                   <p className = "p">
                     Join our growing Waffle Time family today! Franchise now!
                   </p>
-                  <a href ="mailto:franchising@waffletime.com?Subject=Franchise%20Inquiry" className = "btn btn-success float-right mt-5 mb-3 mr-2" target = "_top">
+                  <a href ="mailto:customerservice@waffletime.com?Subject=Franchise%20Inquiry" className = "btn btn-success float-right mt-5 mb-3 mr-2" target = "_top">
                     Send us an Email
                   </a>
                 </div>

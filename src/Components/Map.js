@@ -1,9 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
 
 import wavycurve from './Layouts/img/wavy-curve-red.png';
 import wavycurveblue from './Layouts/img/wavy-curve-blue.png';
-import SearchBox from 'react-google-maps/lib/components/places/SearchBox';
+
 
 import {
   withScriptjs,
@@ -139,7 +138,7 @@ const MapWithASearchBox = compose(
           <div ref="map"  className = "" id = "map-size"   >
                <MapWithASearchBox isMarkerShowns isMarkerShown MarkerShowns/>
           </div>
-          <img src = {wavycurveblue} className = "img-fluid wavy-curve map-wavycurve-bottom" alt = "Waffle red curve" />
+          <img id = "party-package-section" src = {wavycurveblue} className = "img-fluid wavy-curve map-wavycurve-bottom" alt = "Waffle red curve" />
           </div>
 
 

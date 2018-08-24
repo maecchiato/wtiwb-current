@@ -311,7 +311,7 @@ nav .nav-link:hover
 	background-color: #fff;
 	color: black;
 	padding-top: 50px;
-	padding-bottom: 200px;
+	padding-bottom: 175px;
 }
 
 .about-info
@@ -506,7 +506,7 @@ nav .nav-link:hover
 	background-color: #030051;
 	color: white;
 	position: relative;
-	padding-top: 120px;
+	padding-top: 40px;
 }
 
 #franchise-section .nav-link
@@ -751,4 +751,72 @@ color: white !important;
 #about-section .blockquote {
     margin-bottom: 1rem;
     font-size: 1.0rem;
+}
+
+
+#partypackage-section
+{
+	background-color: #030051;
+	color: white;
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 35px;
+}
+
+#partypackage-section .title
+{
+	color: #f3b778
+}
+
+.party-package-modal .title
+{
+	color: red;
+	font-family: 'KIMBERLE', sans-serif !important;
+}
+
+.party-package-modal
+{
+	padding: 0 50px 0 50px;
+	height: 100%;
+}
+
+
+.img-cart-display
+{
+	position: relative;
+}
+
+
+@media only screen and (min-width: 992px) {
+	.modal-footer
+	{
+		position: fixed;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
+}
+
+.card-back
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(218,37,29, 0.95);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	border-radius: 20px;
+
+	/* transition effect. not necessary */
+	transition: opacity .2s, visibility .2s;
+}
+
+.card-front:hover .card-back{
+  visibility: visible !important;
+  opacity: 1;
 }

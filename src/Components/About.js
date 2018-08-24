@@ -1,6 +1,6 @@
 import React from 'react';
 
-import waffy from './Layouts/img/waffle3.jpg'
+import waffy from './Layouts/img/waffy-mascot.png';
 
 class About extends React.Component{
   render(){

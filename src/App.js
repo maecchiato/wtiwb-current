@@ -8,6 +8,7 @@ import Waffles from './Components/Waffles';
 import Events from './Components/Events';
 import EventsInfo from './Components/Events-Info';
 import Maps from './Components/Map';
+import PartyPackage from './Components/PartyPackage.js';
 import Franchise from './Components/Franchise';
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <Events />
           <EventsInfo />
           <Maps/>
+          <PartyPackage />
           <Franchise />
         </div>
       </div>
