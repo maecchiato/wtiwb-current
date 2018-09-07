@@ -3,7 +3,8 @@ import React from 'react';
 import waffywalking from './Layouts/img/waffy-walking.png';
 import imgfooter from './Layouts/img/footer.png';
 
-class Map extends React.Component{
+class Franchise extends React.Component{
+
   render(){
     return(
       <div id = "franchise-section" className = "row justify-content-sm-center">
@@ -331,4 +332,4 @@ class Map extends React.Component{
   }
 }
 
-export default Map;
+export default Franchise;

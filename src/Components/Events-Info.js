@@ -1,17 +1,45 @@
 import React from 'react';
+import Youtube from '@u-wave/react-youtube';
 
 import curve from './Layouts/img/curve.png';
 
 import year20IMG from './Layouts/img/20-years.png';
 
+
 class Map extends React.Component{
+  _onReady(event){
+    event.target.mute();
+  }
+
+  _onEnd(event){
+    event.target.playVideo();
+  }
+
   render(){
     return(
       <div id = "event-info-section" className = "row">
       <img id = "event-curve" src = {curve} className = "img-fluid img-vert"/>
       <div className = "col-xl-5 col-lg-5 col-md-5 col-xs-12 col-sm-12">
-        <div className = "mt-5">
-          <img src = {year20IMG} className = "img-fluid" />
+        <div className = "mt-5 youtube-parent h-100">
+          <div className = "youtube-display pt-5 h-50 d-xl-block d-none">
+            <Youtube
+              video="q4r7Rkjjlgk"
+              autoplay
+              muted
+              width = "100%"
+              height = "100%"
+              showInfo  = {false}
+              controls = {false}
+              allowFullscreen = {false}
+              showRelatedVideos	= {false}
+              annotations = {false}
+              className="video-iframe"
+              onReady={this._onReady}
+              onEnd={this._onEnd}
+            />
+        </div>
+          <img src = {year20IMG} className = "img-fluid d-xl-none d-block" />
+
         </div>
       </div>
       <div className = "col-xl-7 col-lg-7 col-md-7 col-xs-12 col-sm-12">

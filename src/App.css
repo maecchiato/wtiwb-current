@@ -811,7 +811,6 @@ color: white !important;
 	visibility: hidden;
 	opacity: 0;
 	border-radius: 20px;
-
 	/* transition effect. not necessary */
 	transition: opacity .2s, visibility .2s;
 }
@@ -819,4 +818,10 @@ color: white !important;
 .card-front:hover .card-back{
   visibility: visible !important;
   opacity: 1;
+}
+
+.youtube-display
+{
+	pointer-events: none;
+	height: 100%;
 }

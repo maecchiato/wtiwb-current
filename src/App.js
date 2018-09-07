@@ -10,6 +10,7 @@ import EventsInfo from './Components/Events-Info';
 import Maps from './Components/Map';
 import PartyPackage from './Components/PartyPackage.js';
 import Franchise from './Components/Franchise';
+import Popup from './Components/Popup';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
       <div className = "App">
         <Navigation />
         <div className = "container-fluid">
+          <Popup />
           <Home />
           <About />
           <Waffles />
