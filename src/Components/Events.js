@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import events1 from './Layouts/img/advertisements/events1.jpg';
 import events2 from './Layouts/img/advertisements/events2.jpg';
 import events3 from './Layouts/img/advertisements/events3.jpg';
-import events4 from './Layouts/img/advertisements/events4.jpg';
+import events4 from './Layouts/img/flavor-of-the-month-display.jpg';
 import events5 from './Layouts/img/advertisements/events5.jpg';
 import events6 from './Layouts/img/advertisements/events6.jpg';
 
@@ -88,7 +88,7 @@ class Events extends React.Component{
           <div className = "zoom evt">
             <img className = "img-size" src = {events4} />
               <p className = "event-description">
-                Special Promo Alert!
+                Fillings of the Month is here!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 

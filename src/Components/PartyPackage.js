@@ -83,7 +83,7 @@ class PartyPackage extends React.Component
                             	Manila: P6,000.00
                           </li>
                           <li>
-                            Visayas & Mindanao: P5,000.00
+                            Visayas & Mindanao: P5,500.00
                           </li>
                         </ul>
                         <div className="btn-group dropright mt-5 float-right mr-3">

@@ -13,6 +13,7 @@ import Franchise from './Components/Franchise';
 import Popup from './Components/Popup';
 
 class App extends Component {
+
   render() {
     return (
       <div className = "App">

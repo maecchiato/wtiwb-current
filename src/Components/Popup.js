@@ -39,12 +39,14 @@ class PartyPackage extends React.Component
   }
 
   componentDidMount(){
-      let visited = localStorage["alreadyVisited"];
-      if(!visited)
-      {
-          this.inputElement.click()
-          localStorage["alreadyVisited"] = true
-      }
+    let visited = window.sessionStorage.getItem('alreadyVisited');
+    // console.log("first init: " + window.sessionStorage.getItem('alreadyVisited'));
+    if(visited != 'true')
+    {
+      this.inputElement.click()
+      window.sessionStorage.setItem('alreadyVisited','true')
+      // console.log("second init: " + window.sessionStorage.getItem('alreadyVisited'));
+    }
   }
 
   openModal(){
@@ -62,7 +64,7 @@ class PartyPackage extends React.Component
     {
       return(
         <div>
-        <button ref={input => this.inputElement = input}  type = "button" className = "" onClick = {this.openModal} />
+        <button ref={input => this.inputElement = input}  type = "button" hidden onClick = {this.openModal} />
         <Modal
           isOpen = {this.state.modalIsOpen}
           onAfterOpen = {this.afterOpenModal}
