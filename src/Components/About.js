@@ -28,7 +28,7 @@ class About extends React.Component{
               </p>
               <p className = "blockquote mt-3 mr-5">
                 Waffle Time registered as a corporation, from being a single-proprietorship owned business, in May of 2002.
-                It is also a registered name and trademark under the Intelectual Property Office of the Philippines.
+                It is also a registered name and trademark under the Intellectual Property Office of the Philippines.
               </p>
               <p className = "blockquote mt-3 mr-5">
                 On June 2002, Waffle Time started to penetrate the Metro Manila market. The concept was well received and became an instant hit. From
@@ -67,7 +67,7 @@ class About extends React.Component{
                       </li>
                     </ul>
                     <p className = "mt-2 mr-5 font-weight-bold mb-2 blockquote font-weight-bold">
-                      Vission
+                      Vision
                     </p>
                     <p className = "blockquote ml-2">
                       Serving the best waffles in the world across all races beyond all borders.

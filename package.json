@@ -17,6 +17,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.0.13",
     "react-tooltip": "^3.6.1",
+    "rebase": "^0.3.0",
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
