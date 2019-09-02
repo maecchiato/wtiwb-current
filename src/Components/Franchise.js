@@ -180,15 +180,11 @@ class Franchise extends React.Component{
                       </p>
                       <p className = "h6 mb-2 font-weight-light">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (632) 584 - 1601 | (632) 584 - 3704
-                      </p>
-                      <p className = "h6 mb-2 font-weight-light">
-                        <i className="fas fa-mobile-alt mr-2"></i>
-                          +639338513968
+                          (02) - 584 - 1601
                       </p>
                       <p className = "h6 mb-4 font-weight-light">
                         <i className="fas fa-fax mr-2"></i>
-                        (632) - 642 - 1870
+                        (02) - 642 - 1870
                       </p>
                     </p>
                   </div>
@@ -203,19 +199,15 @@ class Franchise extends React.Component{
                     <p className = "h6 font-weight-light">
                       <p className = "mb-2">
                         <i className="fas fa-home mr-2"></i>
-                          Door 5, Q.H.P Bdlg., Arsenal St., Iloilo City, Philippines 5000
+                          Door 5, QHP Business Center, Arsenal St., Iloilo City, Philippines 5000
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (6333) - 335 - 0935
-                      </p>
-                      <p className = "mb-2">
-                        <i className="fas fa-mobile-alt mr-2"></i>
-                          +639338633846
+                          (033) - 335 - 0935
                       </p>
                       <p className = "mb-4">
                         <i className="fas fa-fax mr-2"></i>
-                        (6333) - 335 - 0026
+                        (033) - 335 - 0026
                       </p>
                     </p>
                   </div>
@@ -234,15 +226,11 @@ class Franchise extends React.Component{
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (6332) - 253 - 9679 | (6332) - 417 - 4548
-                      </p>
-                      <p className = "mb-2">
-                        <i className="fas fa-mobile-alt mr-2"></i>
-                          +639338117037
+                          (032) - 253 - 9679 
                       </p>
                       <p className = "mb-4">
                         <i className="fas fa-fax mr-2"></i>
-                          (6332) - 253 - 9679
+                          (032) - 253 - 9679
                       </p>
                     </p>
                   </div>
@@ -261,11 +249,7 @@ class Franchise extends React.Component{
                       </p>
                       <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (6388) - 850 - 0218
-                      </p>
-                      <p className = "mb-4">
-                        <i className="fas fa-mobile-alt mr-2"></i>
-                          +639338514498
+                          (088) - 850 - 0218
                       </p>
                     </p>
                   </div>
@@ -281,13 +265,9 @@ class Franchise extends React.Component{
                         <i className="fas fa-home mr-2"></i>
                           #32B Mariner St., Doña Vicenta Village, Davao City, Philippines 8000
                       </p>
-                      <p className = "mb-2">``
+                      <p className = "mb-2">
                         <i className="fas fa-phone-square mr-2"></i>
-                          (6382) - 298 - 5335
-                      </p>
-                      <p className = "mb-4">
-                        <i className="fas fa-mobile-alt mr-2"></i>
-                          +639338513967
+                          (082) - 298 - 5335
                       </p>
                     </p>
                   </div>
