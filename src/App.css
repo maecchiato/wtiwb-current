@@ -343,7 +343,7 @@ nav .nav-link:hover
 
 #waffles-section
 {
-	background-color: #fee300;
+	background-color: #FED74A;
 	color: white;
 	padding-top: 75px;
 }
@@ -626,8 +626,8 @@ color: white !important;
 
 .evt:hover {
 	 border-radius: 35px;
-     background-color:#32a5fd;
-  color: white;
+     background-color:#FED74A;
+  color: #030051;
 }
 
 
