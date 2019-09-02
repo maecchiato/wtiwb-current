@@ -343,7 +343,7 @@ nav .nav-link:hover
 
 #waffles-section
 {
-	background-color: #fee300;
+	background-color: #FED74A;
 	color: white;
 	padding-top: 75px;
 }
@@ -459,7 +459,7 @@ nav .nav-link:hover
 
 #event-info-section
 {
-	background-color: #fa0002;
+	background-color: #af0700;
 	padding-bottom: 80px;
 }
 
@@ -626,8 +626,8 @@ color: white !important;
 
 .evt:hover {
 	 border-radius: 35px;
-     background-color:#32a5fd;
-  color: white;
+     background-color:#FED74A;
+  color: #030051;
 }
 
 
@@ -674,7 +674,6 @@ color: white !important;
 
 	color: white;
 	font-size: 15px;
-	background-color: #fa0002;
 	padding-bottom: 80px;
 }
 
