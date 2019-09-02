@@ -1,12 +1,13 @@
 import React from 'react';
 import Slider from 'react-slick';
 
-import events1 from './Layouts/img/advertisements/events1.jpg';
-import events2 from './Layouts/img/advertisements/events2.jpg';
-import events3 from './Layouts/img/advertisements/events3.jpg';
-import events4 from './Layouts/img/flavor-of-the-month-display.jpg';
-import events5 from './Layouts/img/advertisements/events5.jpg';
-import events6 from './Layouts/img/advertisements/events6.jpg';
+import events1 from './Layouts/img/ads/events1.jpg';
+import events2 from './Layouts/img/ads/events2.jpg';
+import events3 from './Layouts/img/ads/DengueCollage.jpg';
+import events4 from './Layouts/img/ads/MalasakitCollage.jpg';
+import events5 from './Layouts/img/ads/flavor-of-the-month.jpg';
+import events6 from './Layouts/img/ads/GalaCollage.jpg';
+
 
 class Events extends React.Component{
   render(){
@@ -52,73 +53,73 @@ class Events extends React.Component{
           <div className = "zoom evt">
             <img className = "img-size" src = {events1} />
               <p className = "event-description">
-                Waffy goes on a Natiownide Tour!
+              WaffleTime now accepts GCash!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
+                Sunday, 1 September 2019
               </small>
           </div>
           <div className = "zoom evt">
             <img className = "img-size" src = {events2} />
               <p className = "event-description">
-                Waffle Time&apos;s Treat to the Best Mothers of the World!
+              Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 June 2018
+                Thursday, 22 August 2019
               </small>
           </div>
           <div className = "zoom evt">
             <img className = "img-size" src = {events3} />
               <p className = "event-description">
-                Waffle Time launched the year-long celebration of its 20th Anniversary!
+              Waffle Time Dugo para sa Dengue Bloodletting Drive in partnership with Red Cross Iloilo Chapter
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Monday, 4 July 2018
+                Thursday, 8 August 2019
               </small>
           </div>
           <div className = "zoom evt">
             <img className = "img-size" src = {events4} />
               <p className = "event-description">
-                Fillings of the Month is here!
+               Waffle Time Foundation donates 20 folding beds for the "Malasakit sa Kapwa Project"
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Sunday, 1 July 2018
+                Saturday, 3 August 2019
               </small>
           </div>
           <div className = "zoom evt">
             <img className = "img-size" src = {events5} />
               <p className = "event-description">
-                 Waffle Time Joins PFA on Franchise Negosyo activities Nationwide!
+                 Fillings of the Month is here!
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Sunday, 1 June 2018
+                Monday, 1 July 2019
               </small>
           </div>
           <div className = "zoom evt">
             <img className = "img-size" src = {events6} />
               <p className = "event-description">
-                We honor Dads with Waffle-licious Gifts on Father&apos;s Day
+                Waffle time celebrates it&apos;s 20th year Gala night with Franchisee awardees and the 61st of our well-loved yet low-key Ilonggo bizperson - Johnny Que
               </p>
               <p className = "mt-1 mx-1 event-description text-justify">
 
               </p>
               <small className = "mt-xl-5 mt-lg-2 mt-sm-0 mr-3 text-muted float-right event-description">
-                Sunday, 1 June 2018
+                Tuesday, 18 June 2019
               </small>
           </div>
 
